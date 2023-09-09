@@ -1,3 +1,3 @@
 <footer>
-    <p>Misc</p>
+    <a href="/contact">Contact</a>
 </footer>

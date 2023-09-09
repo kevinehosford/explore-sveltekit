@@ -9,7 +9,6 @@ const logger: Handle = async ({ event, resolve }) => {
 
 const authorize:Handle = async ({ event, resolve }) => {
     const user = auth();
-
     event.locals.user = user;
 
     return resolve(event);
